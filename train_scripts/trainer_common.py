@@ -240,8 +240,7 @@ class Trainer(object):
 
         #===============build losses===================#
         # TODO replace below lines to build your losses
-        # l1 = nn.L1Loss() # [replace this]
-        l1 = nn.MSELoss()
+        l1 = nn.L1Loss() # [replace this]
 
         
         # Caculate the epoch number
