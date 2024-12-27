@@ -6,7 +6,7 @@
 
 **The official repository with Pytorch**
 
-![Block]()
+![Block](Efficient_USR.png)
 
 ## Installation
 
