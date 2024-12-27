@@ -28,11 +28,17 @@ pip3 install torch torchvision opencv-python matplotlib pyyaml tqdm tensorboardX
 ```
 
 ## Train  
-- Train the Efficient-USR on UFO-120 dataset.
+- Train the Efficient-USR on [UFO-120](https://drive.google.com/drive/folders/153laK_iRsyKkWN_qZztAyH3309WNKqsI) dataset.
 ``` bash
 python train.py -v "UFO_2X_32" -p train --train_yaml "train_UFO120_x2_32.yaml"
 python train.py -v "UFO_3X_32" -p train --train_yaml "train_UFO120_x3_32.yaml"
 python train.py -v "UFO_4X_32" -p train --train_yaml "train_UFO120_x4_32.yaml"
+```
+- Train the Efficient-USR on [USR-248](https://drive.google.com/drive/folders/1dCe5rlw3UpzBs25UMXek1JL0wBBa697Q) dataset.
+``` bash
+python train.py -v "USR_2X_32" -p train --train_yaml "train_USR248_x2_32.yaml"
+python train.py -v "USR_4X_32" -p train --train_yaml "train_USR248_x4_32.yaml"
+python train.py -v "USR_8X_32" -p train --train_yaml "train_USR248_x8_32.yaml"
 ```
 
 ## Fine-tune  
