@@ -4,7 +4,7 @@ module_script_name: uie
 class_name: UIE
 
 # Model Configuration
-feature_num: 64
+feature_num: 32
 
 module_params:
   upsampling: 4
