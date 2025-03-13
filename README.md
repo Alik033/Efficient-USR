@@ -1,6 +1,6 @@
 # Efficient-USR: Prompt guided Dual-Domain feature information for efficient underwater image super-resolution![Views](https://komarev.com/ghpvc/?username=Alik033)
 
-**Paper Link:**
+**Paper Link: [https://ieeexplore.ieee.org/document/10889519](https://ieeexplore.ieee.org/document/10889519)**
 
 **This paper has been accepted at the 50th IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025).**
 
@@ -64,7 +64,14 @@ python test.py -v "UFO_2X_32" --checkpoint_epoch 277 -t tester_Matlab --test_dat
 - other configurations are done using yaml files
 ## Citation
 ```
-
+@inproceedings{pramanick2025efficient,
+  title={Efficient-USR: Prompt Guided Dual-Domain Feature Information for Efficient Underwater Image Super-Resolution},
+  author={Pramanick, Alik and Bheda, Utsav and Sur, Arijit},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}
 ```
 ## Acknowledgement
 - [https://github.com/Alik033/ML-CrAIST](https://github.com/Alik033/ML-CrAIST)
