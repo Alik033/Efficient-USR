@@ -8,6 +8,8 @@
 
 ![Block](Efficient_USR.png)
 
+In the above diagram the **red dotted arrow for up-sampling** and **blue dotted arrow for down-sampling**.
+
 ## Installation
 
 **Python 3.9.12**
